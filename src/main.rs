@@ -3,7 +3,7 @@ use clap::{App, Arg};
 fn main() {
     let matches = App::new("CLI Calculator")
         .version("1.0")
-        .author("Your Name")
+        .author("Divya")
         .about("A simple calculator implemented in Rust")
         .arg(
             Arg::new("operation")
